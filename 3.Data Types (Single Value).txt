@@ -1,0 +1,118 @@
+-> Datatypes
+-> Single Value Datatype
+-> Int
+-> Float
+-> Complex
+-> Boolean
+
+
+Data Types
+___________
+
+Datatype are the Keyword used to specifies the type of the data.
+
+There are two type of Data types 
+
+1. Single value Datatype
+
+2. Multi Value Datatype
+
+
+1. Single value Datatype
+________________________
+
+* int
+
+* float
+
+* complex
+
+* boolean
+
+i.Int
+_____
+
+It is individual datatype, used to store numeric value and non decimal values.
+
+Ex
+__
+
+0 means false
+
+numbers(-1,-2,-69.....1,2,22,33,4) are considered as true
+
+a=0
+b=21
+
+print(a, type(a))
+print(boolean(a))
+print(b, type(b))
+print(boolean(b))
+
+Output
+______
+
+10<class 'int'>
+True
+0<class 'int'>
+False
+
+
+ii.Float
+_________
+
+Float is use to store decimal values
+
+eg:
+___
+
+a=2.3
+c-0
+print(a, type(a))
+print(boolean(a))
+print(c, type(c))
+print(boolean(c))
+
+output
+______
+
+2.4<class 'float'>
+True
+0<class 'int'>
+False
+
+iii.Complex
+___________
+
+It is a python individual datatype, where it is a combination of real number and imaginary number.
+
+Eg:
+___
+
+a=5+3j
+
+print(a.real, 'real')
+print(b.imaginary, 'imaginary')
+print(a, type(a))
+
+
+output
+______
+
+5 real
+3j imaginary
+(5+3j) <class 'complex'>
+
+iv.Boolean
+__________
+
+Boolean datatype stores True and False data
+
+eg:
+
+result=True
+print(result,tyep(reult))
+
+output
+______
+True<class 'boolean'>
