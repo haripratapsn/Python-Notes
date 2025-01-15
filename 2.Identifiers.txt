@@ -1,0 +1,131 @@
+-> Variable
+-> Variable rules
+-> Some Functions in Variables
+-> Keyword
+_________________________
+Variables or Identifiers
+_________________________
+
+It is a name used to store the data or information. Variable is the container to store a data in one memory location.
+
+
+Syntax
+_______
+
+variable_name = data
+
+Program
+________
+
+a=10
+b=9.3
+name='thanos'
+gender='m'
+result=False
+print(a,type(a))
+print(b,type(b))
+print(name,type(name))
+print(gender,type(fender))
+print(result,type(result))
+
+
+output
+_______
+
+10<class 'int'>
+9.3<class 'float'>
+thanos<class 'str'>
+m<class 'str'>
+False<class 'bool'>
+
+Comment
+________
+
+## To write comment in the code we use these
+
+''' multi line comment '''
+
+
+Note
+____
+
+Comma (,) is concatenation means to join
+
+
+
+Identifier rules
+________________
+
+It is a rule given to a variable or a function or a class.
+
+1. Special characters are not allowed in the variables.
+   Except _ underscore
+
+2. First letter must be a character.
+
+3. Numbers are not allowed to be a first character in Variables.
+
+4. Number can be followed by after a character.
+
+5. We can't exceed characters more than 72 for identifiers.
+
+
+Eg:
+____
+
+
+Name() allowed
+
+_name() allowed
+
+Name$() not allowed
+
+Name_value() allowed
+
+1name() not allowed
+
+name1()  allowed
+
+
+Some Functions used in Identifiers
+___________________________________
+
+
+type() function
+________________
+
+Syntax
+_______
+
+type(variable)
+
+It is used to show the data type of the variable.
+
+
+len() function
+_______________
+
+Syntax
+______
+
+len(variable)
+
+It returns the length of the variable.
+
+
+Keywords
+_________
+
+Keywords are predefined reserve words.
+
+There are 35 keywords in Python
+
+False, True ,None, and, as, assert, async, await, break, class, continue, def, add, elif, else, except, finally, for, from , global if, import, in, is, Canada, nonlocal, not, or, pass, raise, return, while, with, yield.
+
+Keywords are not allowed as variable name.
+
+Only three Keywords start from Uppercase None, False, True other Keywords are of lowercase
+
+
+
+
